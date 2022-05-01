@@ -238,3 +238,42 @@ h1,h2,h3,h4,h5,h6,p,a{
         }
     }
 }
+
+.testimoni {
+    .user-review {
+        h1 {
+            font-weight: bold;
+            span {
+                border-bottom: 7px solid #9B46FF; 
+                line-height: 0.4em;
+                display: inline-table;
+            }
+        }
+        .item {
+        h4 {
+            font-weight: bold;
+        }
+        img {
+            display: block;
+            width: 10%;
+        }
+        .cilok-1 {
+            width: 40px !important; 
+            height: 40px !important;
+        }
+        .cilok-2 {
+            width: 40px !important;
+            height: 40px !important;
+            margin-top: 93px;
+        }
+        }
+        .img-rating {
+            display: flex;
+            justify-content: center;
+        }
+        .butn {
+            width: 32px !important;
+            height: 32px !important;
+        }
+    }
+}
