@@ -1,0 +1,240 @@
+$font-stack : poppins, sans-serif;
+$text-primary-color : #34364A;
+$primary-color : #6E40FB;
+$primary-color-hover : #592edb;
+
+body{
+    font-family: $font-stack;
+    color: $text-primary-color;
+    background-color: #E8EBF2;
+}
+
+h1,h2,h3,h4,h5,h6,p,a{
+    font-family: $font-stack !important;
+    color: $text-primary-color;
+}
+
+.primary-color{
+    color: $primary-color !important;
+}
+
+.secondary-color{
+    color: #999AA4;
+}
+
+.navbar{
+    background-color: #ffffff;
+    .nav-item{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+    .btn-nav{
+        background-color: #E5E9F2;
+    }
+    .dropdown-menu{
+        border-radius: 10px;
+    }
+    .dropdown-item img {
+        width: 50px;
+    }
+}
+
+.btn.primary-btn{
+    background-color: $primary-color;
+    color: #ffffff;
+    &:hover{
+        color: #ffffff;
+        background-color: $primary-color-hover;
+    }
+    &:focus{
+        background-color: $primary-color-hover;
+    }
+}
+
+.btn.secondary-btn{
+    border: .5px solid #6B6B6B;
+    &:hover{
+        background-color: #dbdbdb;
+    }
+}
+
+.header{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 5rem;
+    .text-header{
+        margin-bottom: 1rem;
+        h1{
+            margin-bottom: 2rem;
+            font-weight: bold;
+        }
+        p{
+            width: 50%;
+        }
+        #Cbesar{
+            position: absolute;
+            top: 40%;
+            left: 0rem;
+        }
+        #Ckecil{
+            position: absolute;
+            top: 20%;
+            left: 48%;
+        }
+    }
+    #plus{
+        position: absolute;
+        top: 30%;
+    }
+    #plus-plus{
+        position: absolute;
+        top: 35%;
+    }
+}
+
+.karya{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    h5{
+        color: $primary-color !important;
+    }
+    h2{
+        font-weight: bold;
+    }
+    .card{
+        width: 100%;
+        margin: auto;
+        border-radius: 0 0 10px 10px;
+    }
+    .karya-item{
+        padding: 1.5rem;
+        margin-top: 3rem;
+        small{
+            color: #247AFF;
+        }
+        h4{
+            font-weight: bold;
+        }
+    }
+    .owl-carousel{
+        .owl-item{
+            img{
+                width: auto;
+            }
+            .karya-img{
+                width: 100%;
+            }
+        }
+        .owl-nav{
+            .customNextBtn{
+                position: absolute;
+                top: 63%;
+                right: 1%;
+                cursor: pointer;
+            }
+            .customPrevBtn{
+                position: absolute;
+                top: 63%;
+                left: 1%;
+                cursor: pointer;
+            }
+        }
+        .owl-dots{
+            .owl-dot{
+                span{
+                    background-color: #247AFF4D;
+                    &:hover{
+                        background-color: #247cff85;
+                    }
+                }
+            }
+            .owl-dot.active{
+                span{
+                    background-color: #247AFF;
+                }
+            }
+        }
+    }
+    #wave{
+        position: absolute;
+        left: -10%;
+        top: 50%;
+    }
+    #Csedang{
+        position: absolute;
+        right: -7%;
+        bottom: -1%;
+    }
+
+}
+
+.layanan{
+    position: relative;
+    .plus2{
+        position: absolute;
+        bottom: 6%;
+        left: 3%;
+    }
+    .plus-plus2{
+        position: absolute;
+        bottom: 12%;
+        left: 3%;
+    }
+}
+
+.artikel{
+    .tgl-artikel{
+        margin-left: 2.4rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: start;
+    }
+}
+
+.metode{
+    position: relative;
+    .c-besar2{
+        position: absolute;
+        left: 0%;
+        top: 38%;
+    }
+    .bg-titik{
+        position: absolute;
+        right: 29%;
+        top: 40%;
+    }
+    .c-kecil2{
+        position: absolute;
+        left: 14%;
+        top: 36%;
+    }
+    .c-kecil3{
+        position: absolute;
+        top: 20%;
+        right: 10%;
+    }
+    .w-fit-content{
+        width: fit-content;
+    }
+    .d-flex{
+        .list-metode{
+            position: relative;
+            margin-right: 3rem;
+            margin-top: 3rem;
+            h4{
+                z-index: 1;
+                position: relative;
+            }
+        }
+        hr{
+            margin-top: 0%;
+            width: 1.7rem;
+            background-color: #9B46FF;
+            height: 5px;
+            opacity: 1;
+            position: absolute;
+            top: 28%;
+            z-index: 0;
+        }
+    }
+}
