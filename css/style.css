@@ -389,7 +389,7 @@ footer a.footer-text:hover {
     top: 40%;
     right: 5%;
   }
-  .artikel img {
+  .artikel .artikel-img {
     width: inherit;
   }
   .artikel .tgl-artikel {
@@ -427,7 +427,7 @@ footer a.footer-text:hover {
   .cta {
     background-size: contain;
   }
-  .cta img {
+  .cta .artikel-img {
     left: 0px;
     position: relative;
     top: 0px;
@@ -435,6 +435,31 @@ footer a.footer-text:hover {
   }
   .cta h1, .cta h5 {
     color: #34364A;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .artikel .artikel-img {
+    width: 100%;
+  }
+  .artikel .tgl-artikel {
+    margin-left: 0rem;
+  }
+  .metode .metode-img {
+    width: 100%;
+  }
+  .testimoni .user-review .item img {
+    width: auto;
+  }
+  .cta {
+    background-size: contain;
+  }
+  .cta img {
+    left: -12%;
+    top: -13%;
+  }
+  .cta .w-75 {
+    width: 100% !important;
   }
 }
 /*# sourceMappingURL=style.css.map */
