@@ -20,16 +20,20 @@ h1, h2, h3, h4, h5, h6, p, a {
 .navbar {
   background-color: #ffffff;
 }
+
 .navbar .nav-item {
   margin-left: 1rem;
   margin-right: 1rem;
 }
+
 .navbar .btn-nav {
   background-color: #E5E9F2;
 }
+
 .navbar .dropdown-menu {
   border-radius: 10px;
 }
+
 .navbar .dropdown-item img {
   width: 50px;
 }
@@ -38,17 +42,20 @@ h1, h2, h3, h4, h5, h6, p, a {
   background-color: #6E40FB;
   color: #ffffff;
 }
+
 .btn.primary-btn:hover {
   color: #ffffff;
   background-color: #592edb;
 }
+
 .btn.primary-btn:focus {
   background-color: #592edb;
 }
 
 .btn.secondary-btn {
-  border: 0.5px solid #6B6B6B;
+  border: .5px solid #6B6B6B;
 }
+
 .btn.secondary-btn:hover {
   background-color: #dbdbdb;
 }
@@ -58,30 +65,37 @@ h1, h2, h3, h4, h5, h6, p, a {
   padding-bottom: 3rem;
   margin-bottom: 5rem;
 }
+
 .header .text-header {
   margin-bottom: 1rem;
 }
+
 .header .text-header h1 {
   margin-bottom: 2rem;
   font-weight: bold;
 }
+
 .header .text-header p {
   width: 50%;
 }
+
 .header .text-header #Cbesar {
   position: absolute;
   top: 40%;
   left: 0rem;
 }
+
 .header .text-header #Ckecil {
   position: absolute;
   top: 20%;
   left: 48%;
 }
+
 .header #plus {
   position: absolute;
   top: 30%;
 }
+
 .header #plus-plus {
   position: absolute;
   top: 35%;
@@ -91,59 +105,74 @@ h1, h2, h3, h4, h5, h6, p, a {
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
+
 .karya h5 {
   color: #6E40FB !important;
 }
+
 .karya h2 {
   font-weight: bold;
 }
+
 .karya .card {
   width: 100%;
   margin: auto;
   border-radius: 0 0 10px 10px;
 }
+
 .karya .karya-item {
   padding: 1.5rem;
   margin-top: 3rem;
 }
+
 .karya .karya-item small {
   color: #247AFF;
 }
+
 .karya .karya-item h4 {
   font-weight: bold;
 }
+
 .karya .owl-carousel .owl-item img {
   width: auto;
 }
+
 .karya .owl-carousel .owl-item .karya-img {
   width: 100%;
 }
+
 .karya .owl-carousel .owl-nav .customNextBtn {
   position: absolute;
   top: 63%;
   right: 1%;
   cursor: pointer;
 }
+
 .karya .owl-carousel .owl-nav .customPrevBtn {
   position: absolute;
   top: 63%;
   left: 1%;
   cursor: pointer;
 }
+
 .karya .owl-carousel .owl-dots .owl-dot span {
-  background-color: rgba(36, 122, 255, 0.3019607843);
+  background-color: #247AFF4D;
 }
+
 .karya .owl-carousel .owl-dots .owl-dot span:hover {
-  background-color: rgba(36, 124, 255, 0.5215686275);
+  background-color: #247cff85;
 }
+
 .karya .owl-carousel .owl-dots .owl-dot.active span {
   background-color: #247AFF;
 }
+
 .karya #wave {
   position: absolute;
   left: -10%;
   top: 50%;
 }
+
 .karya #Csedang {
   position: absolute;
   right: -7%;
@@ -153,11 +182,13 @@ h1, h2, h3, h4, h5, h6, p, a {
 .layanan {
   position: relative;
 }
+
 .layanan .plus2 {
   position: absolute;
   bottom: 6%;
   left: 3%;
 }
+
 .layanan .plus-plus2 {
   position: absolute;
   bottom: 12%;
@@ -174,38 +205,48 @@ h1, h2, h3, h4, h5, h6, p, a {
 .metode {
   position: relative;
 }
+
 .metode .c-besar2 {
   position: absolute;
   left: 0%;
   top: 38%;
 }
+
 .metode .bg-titik {
   position: absolute;
   right: 29%;
   top: 40%;
 }
+
 .metode .c-kecil2 {
   position: absolute;
   left: 14%;
   top: 36%;
 }
+
 .metode .c-kecil3 {
   position: absolute;
   top: 20%;
   right: 10%;
 }
+
 .metode .w-fit-content {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
 }
+
 .metode .d-flex .list-metode {
   position: relative;
   margin-right: 3rem;
   margin-top: 3rem;
 }
+
 .metode .d-flex .list-metode h4 {
   z-index: 1;
   position: relative;
 }
+
 .metode .d-flex hr {
   margin-top: 0%;
   width: 1.7rem;
@@ -220,34 +261,180 @@ h1, h2, h3, h4, h5, h6, p, a {
 .testimoni .user-review h1 {
   font-weight: bold;
 }
+
 .testimoni .user-review h1 span {
   border-bottom: 7px solid #9B46FF;
   line-height: 0.4em;
   display: inline-table;
 }
+
 .testimoni .user-review .item h4 {
   font-weight: bold;
 }
+
 .testimoni .user-review .item img {
   display: block;
   width: 10%;
 }
+
 .testimoni .user-review .item .cilok-1 {
   width: 40px !important;
   height: 40px !important;
 }
+
 .testimoni .user-review .item .cilok-2 {
   width: 40px !important;
   height: 40px !important;
   margin-top: 93px;
 }
+
 .testimoni .user-review .img-rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 .testimoni .user-review .butn {
   width: 32px !important;
   height: 32px !important;
 }
 
+.pertanyaan .accordion .accordion-button::after {
+  background-image: url(../img/plus-vector.png);
+}
+
+.pertanyaan .accordion .accordion-button:focus {
+  -webkit-box-shadow: 0 0 0 0;
+          box-shadow: 0 0 0 0;
+}
+
+.pertanyaan .accordion .accordion-button:not(.collapsed) {
+  color: #6E40FB;
+  border-bottom: 2px solid #6E40FB;
+}
+
+.pertanyaan .accordion .accordion-button:not(.collapsed)::after {
+  background-image: url(../img/minus-vector.png);
+  -webkit-transform: translate(10px, 10px);
+          transform: translate(10px, 10px);
+  margin-right: .5rem;
+}
+
+.pertanyaan .accordion .accordion-collapse {
+  -webkit-transition: .25s ease;
+  transition: .25s ease;
+}
+
+.cta {
+  background-image: url(../img/cta-bg.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position-x: center;
+  background-position-y: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.cta img {
+  left: 22%;
+  position: relative;
+  top: -12%;
+  width: auto;
+}
+
+.cta h1, .cta h5, .cta button {
+  color: #ffffff;
+}
+
+.cta .btn-cta {
+  background-color: #5427DE;
+}
+
+.cta .btn-cta:hover {
+  color: #ffffff;
+}
+
+footer .footer-text {
+  color: #34364A;
+}
+
+footer a.footer-text:hover {
+  color: #6E40FB;
+}
+
+@media (max-width: 480px) {
+  .header {
+    margin-bottom: 3rem;
+  }
+  .header .text-header {
+    padding: 1rem;
+  }
+  .header .text-header #Cbesar {
+    display: none;
+  }
+  .header .text-header #Ckecil {
+    display: none;
+  }
+  .header .header-img {
+    display: none;
+  }
+  .header #plus {
+    top: 35%;
+    right: 5%;
+  }
+  .header #plus-plus {
+    top: 40%;
+    right: 5%;
+  }
+  .artikel img {
+    width: inherit;
+  }
+  .artikel .tgl-artikel {
+    margin-left: 0rem;
+  }
+  .metode .metode-img {
+    width: 100%;
+  }
+  .metode .c-besar2 {
+    top: 55%;
+    width: 45px;
+  }
+  .metode .c-kecil2 {
+    width: 45px;
+    top: 40%;
+  }
+  .metode .bg-titik {
+    right: 19%;
+    top: 40%;
+    width: 10px;
+  }
+  .metode .c-kecil3 {
+    display: none;
+  }
+  .metode .d-flex .list-metode {
+    margin-right: 1rem;
+    margin-top: 1.5rem;
+  }
+  .testimoni .user-review .item img {
+    width: auto;
+  }
+  .pertanyaan .accordion .accordion-button {
+    padding: 1.5rem;
+  }
+  .cta {
+    background-size: contain;
+  }
+  .cta img {
+    left: 0px;
+    position: relative;
+    top: 0px;
+    width: 100%;
+  }
+  .cta h1, .cta h5 {
+    color: #34364A;
+  }
+}
 /*# sourceMappingURL=style.css.map */

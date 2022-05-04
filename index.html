@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Regalia</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="./node_modules/owl.carousel/dist/assets/owl.carousel.min.css">
@@ -141,7 +142,7 @@
                 <h5>Karya Member</h5>
                 <h2>Lorem Lorem Lorem Lorem</h2>
             <div class="row">
-                <div class="owl-carousel owl-theme owl-loaded">
+                <div class="owl-carousel owl-theme owl-loaded" id="karya">
                     <div class="owl-stage-outer">
                         <div class="owl-stage">
                             <!-- owl item -->
@@ -395,7 +396,7 @@
             <h5 class="primary-color">Boost Productivity</h5>
             <h2>Metode Belajar Lebih <br>
                 Santai Dan Terarah</h2>
-            <img src="./img/undraw_city_life_gnpr 1.png" alt="">
+            <img src="./img/undraw_city_life_gnpr 1.png" alt="" class="metode-img">
             <img src="./img/C-besar2.png" class="c-besar2">
             <img src="./img/titik.png" class="bg-titik">
             <img src="./img/c-kecil2.png" class="c-kecil2">
@@ -433,7 +434,7 @@
         <div class="user-review text-center">
             <h1><span>Testimoni</span> dari member</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <div class="owl-carousel owl-theme mt-5">
+            <div class="owl-carousel owl-theme mt-5" id="testimoni">
                 <div class="item item-1">
                     <div class="img-review mb-3 d-flex justify-content-evenly">
                         <img src="img/cilok-2.png" class="cilok-2" alt="">
@@ -492,6 +493,110 @@
         </div>
     </div>
     <!-- end of testismoni -->
+
+    <!-- pertanyaan umum -->
+    <div class="pertanyaan my-5">
+        <div class="container">
+            <div class="text-center my-5">
+                <h2 class="fw-bold">Pertanyaan Umum</h2>
+            </div>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingOne">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                        Lorem Lorem Lorem Lorem Lorem Lorem  Lorem
+                    </button>
+                  </h2>
+                  <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Lorem Lorem Lorem Lorem Lorem Lorem  Lorem Lorem Lorem Lorem Lorem Lorem  Lorem Lorem Lorem Lorem Lorem Lorem  Lorem Lorem Lorem .</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingTwo">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                        Lorem Lorem Lorem Lorem Lorem Lorem  Lorem
+                    </button>
+                  </h2>
+                  <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Lorem Lorem Lorem Lorem Lorem Lorem  Lorem Lorem Lorem Lorem Lorem Lorem  Lorem Lorem Lorem Lorem Lorem Lorem  Lorem Lorem Lorem .</div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="flush-headingThree">
+                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                        Lorem Lorem Lorem Lorem Lorem Lorem  Lorem
+                    </button>
+                  </h2>
+                  <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                    <div class="accordion-body">Lorem Lorem Lorem Lorem Lorem Lorem  Lorem Lorem Lorem Lorem Lorem Lorem  Lorem Lorem Lorem Lorem Lorem Lorem  Lorem Lorem Lorem .</div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of pertanyaan umum -->
+
+    <!-- cta btn -->
+    <div class="container">
+        <div class="cta">
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="./img/Saly-24.png" alt="">
+                </div>
+                <div class="col-md-5 my-auto">
+                    <div class="w-75 mt-4">
+                        <h1 class="fw-bold mb-2">Ready to Build Your Future?</h1>
+                        <h5>Ohh yess jelas dong siap, ayee kapten
+                            arsenal juara dunia bosssss</h5>
+                        <button class="btn btn-cta mt-2 rounded-pill px-4">Daftar Sekarang</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of cta btn -->
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="./img/logo.png" alt="logo" class="logo my-3">
+                    <p>Website untuk belajar design dan <br> code dari mentor yang sangat <br> berpengalaman di bidangnya <br> masing-masing.</p>
+                </div>
+                <div class="col-md">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h5 class="fw-bold">Product</h5>
+                            <h6 class="my-3"><a href="" class="text-decoration-none footer-text">Lorem Lorem</a></h6>
+                            <h6 class="my-3"><a href="" class="text-decoration-none footer-text">Lorem</a></h6>
+                            <h6 class="my-3"><a href="" class="text-decoration-none footer-text">Lorem</a></h6>
+                            <h6 class="my-3"><a href="" class="text-decoration-none footer-text">Lorem</a></h6>
+                        </div>
+                        <div class="col-md-4">
+                            <h5 class="fw-bold">Start Learning</h5>
+                            <h6 class="my-3"><a href="" class="text-decoration-none footer-text">Lorem Lorem</a></h6>
+                            <h6 class="my-3"><a href="" class="text-decoration-none footer-text">Lorem</a></h6>
+                            <h6 class="my-3"><a href="" class="text-decoration-none footer-text">Lorem</a></h6>
+                            <h6 class="my-3"><a href="" class="text-decoration-none footer-text">Lorem</a></h6>
+                        </div>
+                        <div class="col-md-4">
+                            <h5 class="fw-bold">Office</h5>
+                            <h6 class="my-3"><a href="" class="text-decoration-none footer-text">Lorem Lorem</a></h6>
+                            <h6 class="my-3"><a href="" class="text-decoration-none footer-text">Lorem</a></h6>
+                            <h6 class="my-3"><a href="" class="text-decoration-none footer-text">Lorem</a></h6>
+                            <h6 class="my-3"><a href="" class="text-decoration-none footer-text">Lorem</a></h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <hr>
+                <p class="text-black-50">Copyright © 2021 Regalia</p>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
 
 </body>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

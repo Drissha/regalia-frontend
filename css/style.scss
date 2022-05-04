@@ -277,3 +277,158 @@ h1,h2,h3,h4,h5,h6,p,a{
         }
     }
 }
+
+.pertanyaan{
+    .accordion{
+        .accordion-button{
+            &::after{
+                background-image: url(../img/plus-vector.png);
+            }
+            &:focus{
+                box-shadow: 0 0 0 0;
+            }
+            &:not(.collapsed){
+                color: $primary-color;
+                border-bottom: 2px solid $primary-color;
+                &::after{
+                    background-image: url(../img/minus-vector.png);
+                    transform: translate(10px, 10px);
+                    margin-right: .5rem;
+                }
+            }
+        }
+        .accordion-collapse{
+            transition: .25s ease;
+        }
+    }
+}
+
+.cta{
+    background-image: url(../img/cta-bg.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position-x: center;
+    background-position-y: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    img{
+        left: 22%;
+        position: relative;
+        top: -12%;
+        width: auto;
+    }
+    h1,h5,button{
+        color: #ffffff;
+    }
+    .btn-cta{
+        background-color: #5427DE;
+        &:hover{
+            color: #ffffff;
+        }
+    }
+}
+
+footer{
+    .footer-text{
+        color: #34364A;
+    }
+    a.footer-text{
+        &:hover{
+            color: $primary-color;
+        }
+    }    
+}
+
+@media (max-width: 480px) {
+    .header{
+        margin-bottom: 3rem;
+        .text-header{
+            padding: 1rem;
+            #Cbesar{
+                display: none;
+            }
+            #Ckecil{
+                display: none;
+            }
+        }
+        .header-img{
+            display: none;
+        }
+        #plus{
+            top: 35%;
+            right: 5%;
+        }
+        #plus-plus{
+            top: 40%;
+            right: 5%;
+        }
+    }
+
+    .artikel{
+        img{
+            width: inherit;
+        }
+        .tgl-artikel{
+            margin-left: 0rem;
+        }
+    }
+
+    .metode{
+        .metode-img{
+            width: 100%;
+        }
+        .c-besar2 {
+            top: 55%;
+            width: 45px;
+        }
+        .c-kecil2 {
+            width: 45px;
+            top: 40%;
+        }
+        .bg-titik {
+            right: 19%;
+            top: 40%;
+            width: 10px;
+        }
+        .c-kecil3{
+            display: none;
+        }
+        .d-flex{
+            .list-metode{
+                margin-right: 1rem;
+                margin-top: 1.5rem;
+            }
+        }
+    }
+
+    .testimoni{
+        .user-review{
+            .item{
+                img{
+                    width: auto;
+                }
+            }
+        }
+    }
+
+    .pertanyaan{
+        .accordion{
+            .accordion-button{
+                padding: 1.5rem;
+            }
+        }
+    }
+
+    .cta{
+        background-size: contain;
+        img{
+            left: 0px;
+            position: relative;
+            top: 0px;
+            width: 100%;
+        }
+        h1, h5{
+            color: $text-primary-color;
+        }
+    }
+}
